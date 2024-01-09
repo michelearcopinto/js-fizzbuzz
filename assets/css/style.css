@@ -13,3 +13,18 @@
 .fizzbuzz {
     background-color: #F0466F;
 }
+
+.quadrato {
+    width: calc((100% / 7) - 50px);
+    aspect-ratio: 1;
+}
+
+.griglia {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+h1 {
+    font-size: 120px;
+}
